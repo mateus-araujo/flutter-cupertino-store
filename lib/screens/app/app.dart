@@ -45,11 +45,7 @@ class CupertinoStoreHomePage extends StatelessWidget {
         switch (index) {
           case 0:
             returnValue = CupertinoTabView(builder: (context) {
-              return CupertinoPageScaffold(
-                child: SafeArea(
-                  child: ProductListTab(),
-                ),
-              );
+              return ProductListTab();
             });
             break;
           case 1:
